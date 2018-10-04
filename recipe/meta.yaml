@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-apidoc" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4051899e7546621d34ec3bae789ce21aa6288c8def0e3f8af9b333782f2305f4
+  sha256: 729bf592cf7b7dd57c4c05794f732dc026127275d785c2a5494521fdde773fb9
 
 build:
   noarch: python
