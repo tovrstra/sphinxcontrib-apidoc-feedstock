@@ -20,6 +20,7 @@ requirements:
     - pip
     - pbr
   run:
+    - pbr
     - python
 
 test:
